@@ -1,0 +1,11 @@
+- 可以理解为 [[Tailwind CSS]] 的按需替代产品
+- # [Features](https://windicss.org/features/)
+- 自定义值 ➡ 尺寸、颜色、grid布局属性
+- 划分不同的群组 ➡ 比如说，hover:(这里可以跟 n 个属性)
+- 对断点设置提供更多操作
+- 提供 `!` 前缀，将 CSS 属性设为 `!important`
+- 在 [[windi.config.js]] 中，可以组合属性，将其自定义 xxx 属性名以供使用
+- 添加前缀 dark: 为样式设置黑暗模式
+- 启用 [[RTL]] 后，同上也提供 `trl:` 选择器，其它 [[dir]] 的属性应该也是支持
+- 支持像 [[Tailwind CSS]] 的 `@apply`、`@screen` 的 `Directives` 指令，也是组合属性，同在[[windi.config.js]] 中组合属性类似，但功能更强大
+- 提供一个数据分析的工具，可以看到属性使用情况

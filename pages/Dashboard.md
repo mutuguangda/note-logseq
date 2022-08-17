@@ -1,0 +1,8 @@
+- Work
+	- {{query (and (todo later now) [[work]] )}}
+- Todo
+	- {{query (todo later)}}
+- In progress
+	- {{query (todo now)}}
+- Done
+	- {{query (todo done)}}
