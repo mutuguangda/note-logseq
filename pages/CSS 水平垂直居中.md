@@ -1,0 +1,3 @@
+- 新思路：将元素转换为[[行内元素]]样式，利用 text-align: center 和 vertical-align: middle 使其垂直居中
+- 链接: https://codesandbox.io/embed/inline-block-center-7js1wc?fontsize=14&hidenavigation=1&theme=dark
+- 但是这种对齐方式会遇到一个问题, 当屏幕分辨率小于子元素, 这里指要其垂直居中的元素, 它会消失不见, 隐藏在屏幕下方, 需要滚动才能发现.

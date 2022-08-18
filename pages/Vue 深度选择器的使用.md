@@ -1,0 +1,10 @@
+- https://www.notion.so/mutuguangda/Vue-Loader-scoped-80044a6c04284b3ba0d13aaa4bdac123
+- 之前有总结过一篇, 但是不过仔细.
+- 在 vue3 中, ::v-deep 还有别的写法, :deep, 有这几种写法:
+- .index:deep(.class)
+- .index :deep(.class)
+- 有无空格都一样
+- 原来 [[CSS 伪元素]] 并不需要跟在类后边
+- .index :hover
+- .index:hover
+- 都是生效的
